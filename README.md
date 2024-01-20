@@ -15,20 +15,20 @@ Its a Containerization platform to run application in container within minimum d
 ![docker-architecture](https://user-images.githubusercontent.com/43399466/217507877-212d3a60-143a-4a1d-ab79-4bb615cb4622.png)
 
 ### Docker Cmd
-To build image:
-`docker build -t my_image:latest .`
-To run image:
-`docker run -d --name my_container nginx`
-To show running container:
-`docker ps`
-To push image:
-`docker push myusername/my_image:latest`
-To pull image:
-`docker pull ubuntu:latest`
-To stop container:
-`docker stop my_container`
-To remove container:
-`docker rm my_container`
+1. To build image:
+* `docker build -t my_image:latest .`
+2. To run image:
+* `docker run -d --name my_container nginx`
+3. To show running container:
+* `docker ps`
+4. To push image:
+* `docker push myusername/my_image:latest`
+5. To pull image:
+* `docker pull ubuntu:latest`
+6. To stop container:
+* `docker stop my_container`
+7. To remove container:
+* `docker rm my_container`
 
 ### Multi stage Build
 Create docker images using multiple stages within a single Dockerfile and the final image is so smaller
