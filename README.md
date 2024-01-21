@@ -41,3 +41,6 @@ Its a very minimalistic and lightweight docker images that'll only have runtime 
 -Distroless images is more minimalistic by excluding unnecessary tools and libraries, focusing solely on the application and its dependencies
 
 ### Docker Volume 
+Docker volumes are managed by Docker and stored outside the container filesystem.
+### Bind Mount
+Bind mounts link a directory on the host machine directly to a directory in the containe.
