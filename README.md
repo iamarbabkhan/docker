@@ -48,4 +48,4 @@ Bind mounts link a directory on the host machine directly to a directory in the 
 #### Bridge Network:
 it enable containers on the same Docker host to communicate with each other using default virtual eath0
 #### Host Network:
-Docker container shares its own network with the host machine. The container have no ip address so that it can directly access from host.
+Docker container shares its own network with the host machine. The container have no ip address so that it can directly access from host ip.
