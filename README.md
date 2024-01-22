@@ -37,8 +37,8 @@ Create docker images using multiple stages within a single Dockerfile and the fi
 Its a very minimalistic and lightweight docker images that'll only have runtime environment 
 
 ### Base images vs Distroless Images
--Base images in Docker contain a minimal operating system with essential components.
--Distroless images is more minimalistic by excluding unnecessary tools and libraries, focusing solely on the application and its dependencies
+- Base images in Docker contain a minimal operating system with essential components.
+- Distroless images is more minimalistic by excluding unnecessary tools and libraries, focusing solely on the application and its dependencies.
 
 ### Docker Volume 
 Docker volumes are managed by Docker and stored outside the container filesystem.
