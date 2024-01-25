@@ -11,6 +11,13 @@ Its a Containerization platform to run application in container within minimum d
 2. It takes minimum dependency to run application and Its lightweight 
 3. Portable
 
+### Disadvantages of Container 
+1. Container is ephemeral(short life) in nature
+2. Doesn’t support Auto healing 
+3. Doesn’t support Horizontal Scaling 
+4. Single host support
+5. Doesn’t support Enterprise 
+
 ### Docker Architecture
 ![docker-architecture](https://user-images.githubusercontent.com/43399466/217507877-212d3a60-143a-4a1d-ab79-4bb615cb4622.png)
 
