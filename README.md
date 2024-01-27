@@ -21,6 +21,9 @@ Its a Containerization platform to run application in container within minimum d
 ### Docker Architecture
 ![docker-architecture](https://user-images.githubusercontent.com/43399466/217507877-212d3a60-143a-4a1d-ab79-4bb615cb4622.png)
 
+#### Entrypoint and Cmd:
+`ENTRYPOINT` sets the main executable for the container, and `CMD` provides default arguments for that executable or specifies the command to run if `ENTRYPOINT` is not used.
+
 ### Docker Cmd
 1. To build image:
 * `docker build -t my_image:latest .`
