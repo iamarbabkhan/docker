@@ -48,3 +48,6 @@ Note: it will run for 60 sec and shutdown automatically
 * `docker search <image_name>`
 4. Pull an image from a Docker Hub
 * `docker pull <image_name>`
+
+### Docker volume mapping
+* `docker run -v /path/on/host:/path/in/container my-image`
