@@ -35,6 +35,9 @@
 * `docker ps --all`
 11. View resource usage stats
 * `docker container stats`
+12. run container for limited time
+* `docker run -d <image name> sleep 60
+Note: it will run for 60 sec and shutdown automatically
 
 ### Docker HUB cmd
 1. Login into Docker
