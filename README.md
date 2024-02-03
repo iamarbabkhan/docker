@@ -59,3 +59,5 @@ Bind mounts link a directory on the host machine directly to a directory in the 
 it enable containers on the same Docker host to communicate with each other using default virtual eath0
 #### Host Network:
 Docker container shares its own network with the host machine. The container have no ip address so that it can directly access from host ip.
+### Docker compose:
+It allows to define and manage multi-container applications in a single YAML file
