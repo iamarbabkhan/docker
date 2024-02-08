@@ -16,7 +16,7 @@ Its a Containerization platform to run application in container within minimum d
 2. Doesn’t support Auto healing 
 3. Doesn’t support Horizontal Scaling 
 4. Single host support
-5. Doesn’t support Enterprise 
+5. Doesn’t support Enterprise grade support
 
 ### Docker Architecture
 ![docker-architecture](https://user-images.githubusercontent.com/43399466/217507877-212d3a60-143a-4a1d-ab79-4bb615cb4622.png)
