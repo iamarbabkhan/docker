@@ -14,7 +14,7 @@ Its a Containerization platform to run application in container within minimum d
 ### Disadvantages of Container 
 1. Container is ephemeral(short life) in nature
 2. Doesn’t support Auto healing 
-3. Doesn’t support Horizontal Scaling 
+3. Doesn’t support Auto Scaling 
 4. Single host support
 5. Doesn’t support Enterprise grade service
 
