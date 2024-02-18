@@ -53,7 +53,7 @@ Its a very minimalistic and lightweight docker images that'll only have runtime 
 ### Docker Volume 
 Docker volumes are managed by Docker and stored outside the container filesystem.
 ### Bind Mount
-Bind mounts link a directory on the host machine directly to a directory in the containe.
+Bind mounts link a directory on the host machine directly to a directory in the container.
 ### Docker Networking
 #### Bridge Network:
 it enable containers on the same Docker host to communicate with each other using default virtual eath0
