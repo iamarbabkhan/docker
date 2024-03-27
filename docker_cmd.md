@@ -39,6 +39,10 @@
 * `docker run -d <image name> sleep 60
 Note: it will run for 60 sec and shutdown automatically
 
+### Docker compose
+`docker compose up`
+`docker compose down `
+
 ### Docker HUB cmd
 1. Login into Docker
 * `docker login -u <username>`
