@@ -24,7 +24,7 @@ Its a Containerization platform to run application in container within minimum d
 ### Entrypoint and Cmd:
 `ENTRYPOINT` sets the main executable for the container, and `CMD` provides default arguments for that executable or specifies the command to run if `ENTRYPOINT` is not used.
 
-### Docker Cmd
+### Most used Docker Commands
 1. To build image:
 * `docker build -t my_image:latest .`
 2. To run image:
